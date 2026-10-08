@@ -28,7 +28,7 @@ html {
 
 body {
   background: radial-gradient(circle at 12% 8%, rgba(245, 185, 31, 0.09), transparent 25%),
-              linear-gradient(135deg, var(--bg-deep), var(--bg) 48%, #02100f);
+    linear-gradient(135deg, var(--bg-deep), var(--bg) 48%, #02100f);
   color: var(--text);
   font-family: var(--f-body);
   line-height: 1.6;
@@ -42,7 +42,7 @@ body::before {
   inset: 0;
   pointer-events: none;
   background-image: linear-gradient(rgba(245, 185, 31, 0.05) 1px, transparent 1px),
-                    linear-gradient(90deg, rgba(245, 185, 31, 0.04) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(245, 185, 31, 0.04) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 72%);
 }
@@ -61,7 +61,9 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--f-head);
   font-weight: 700;
   letter-spacing: 0;
@@ -427,7 +429,7 @@ h1, h2, h3 {
   border-block: 1px solid rgba(255, 255, 255, 0.04);
 }
 
-.section.alt > * {
+.section.alt>* {
   max-width: var(--max);
   margin-left: auto;
   margin-right: auto;
